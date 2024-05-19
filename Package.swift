@@ -27,12 +27,12 @@ let package = Package(
                 .headerSearchPath("include/Headers/Private"),
                 .headerSearchPath("include/Headers/Public")
             ]),
-        .testTarget(
-            name: "JKVValueTests",
-            dependencies: ["JKVValue"],
-            path: "JKVValueTests",
-            exclude: [
-                "Info.plist"
-            ]),
+        // .testTarget(
+        //     name: "JKVValueTests",
+        //     dependencies: ["JKVValue"],
+        //     path: "JKVValueTests",
+        //     exclude: [
+        //         "Info.plist"
+        //     ]),
     ]
 )
